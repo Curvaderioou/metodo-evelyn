@@ -1,0 +1,52 @@
+.faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.faq h2{
+    margin-bottom: 30px;
+}
+
+.faq-grid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-grid dl  {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.faq-grid dt  {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.1em;
+    padding: 10px 0px 15px 0px;
+    text-align: center;
+}
+
+.faq-grid dd  {
+    padding: 10px 20px;
+    text-align: center;
+    font-style: italic;
+    border-top: 1px solid #EACAEA;
+    text-align: center;
+}
+
+.faq-footer {
+    background: #E6E6E6;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+
+.faq-grid dl + dl {
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .faq-grid dl {
+        padding: 10px 40px 10px 20px;
+    }
+}

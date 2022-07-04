@@ -1,0 +1,39 @@
+.garantia {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#garantia {
+    background: url(/img/bg-sections.png) no-repeat center center;
+    background-size: cover;
+}
+
+.garantia-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-gap: 20px;
+}
+
+.garantia-content h2{
+    margin-bottom: 20px;
+}
+.garantia-content a{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 925px){
+    .garantia-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .garantia-grid img{
+        margin: 0 auto;
+    }
+    .garantia-content h2{
+        text-align: center;
+    }
+}

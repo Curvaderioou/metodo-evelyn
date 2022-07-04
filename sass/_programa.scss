@@ -1,0 +1,87 @@
+.programa {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#programa {
+    background: url(/img/bg-sections.png) no-repeat center center;
+    background-size: cover;
+}
+
+.programa-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 400px)) ;
+    grid-gap: 50px;
+    margin-top: 80px;
+}
+.programa-grid li {
+    position: relative;
+
+}
+.programa-grid .box {
+    display: grid;
+    justify-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.programa-grid .box h4 {
+    background: linear-gradient(242.96deg, #EEB5EA -38.42%, #A0009E 125.11%);
+    width: 100%;
+    height: 70px;
+    padding: 10px 20px;
+    align-self: center;
+}
+
+.programa-grid li:nth-child(1) img:nth-child(1){
+    position: absolute;
+    top: -50px;
+}
+
+.programa-grid li:nth-child(2) img:nth-child(1){
+    position: absolute;
+    top: -50px;
+}
+
+.programa-grid li:nth-child(3) img:nth-child(1){
+    position: absolute;
+    top: -50px;
+}
+
+.programa-grid li:nth-child(4) img:nth-child(1){
+    position: absolute;
+    top: -50px;
+}
+
+.programa-grid .box img:nth-child(3){
+    margin: 10px 0px;
+}
+
+.programa-grid .box p{
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.25em;
+}
+
+.programa .btn {
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+    max-width: max-content;
+}
+
+@media only screen and (min-width: 591px) and (max-width: 1220px) {
+    .programa-grid {
+        grid-template-columns: 250px 250px ;
+        justify-content: center;
+        grid-gap: 80px 50px;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .programa-grid {
+        grid-template-columns: 250px ;
+        justify-content: center;
+        grid-gap: 80px 50px;
+    }
+}

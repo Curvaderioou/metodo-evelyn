@@ -1,0 +1,42 @@
+.quem-sou-bg {
+    background: linear-gradient(113.34deg, #C885C3 -54.38%, #EEB5EA 8.59%, #FED7FB 96.38%);    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quem-sou {
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.quem-sou-bg h2 {
+    margin-bottom: 30px;
+}
+
+.quem-sou-grid {
+    display: grid;
+    grid-template-columns: auto 1.6fr;
+    grid-gap: 40px;
+}
+
+.quem-sou-grid p + p{
+    margin-top: 20px;
+}
+.quem-sou-content{
+    max-width: 500px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+
+    .quem-sou {
+        max-width: 600px;
+    }
+ 
+    .quem-sou-grid {
+        grid-template-columns: auto;
+    }
+    .quem-sou-grid img{
+        margin: 0 auto;
+    }
+}

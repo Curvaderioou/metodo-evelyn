@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^metodoevelyn\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.metodoevelyn\.com\.br$
+RewriteRule ^(.*)$ "https\:\/\/www\.metodoevelyn\.com\.br\/$1" [R=301,L]
+
