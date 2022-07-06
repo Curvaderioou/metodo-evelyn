@@ -1,5 +1,6 @@
 .quem-sou-bg {
-    background: linear-gradient(113.34deg, #C885C3 -54.38%, #EEB5EA 8.59%, #FED7FB 96.38%);    padding-top: 80px;
+    background: linear-gradient(98.39deg, #FDFDFD 5.86%, #FED7FB 62.95%, #EEB5EA 125.22%, #C885C3 158.19%);
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -15,8 +16,13 @@
 
 .quem-sou-grid {
     display: grid;
-    grid-template-columns: auto 1.6fr;
+    grid-template-columns: auto minmax(270px, 600px);
     grid-gap: 40px;
+    justify-items: center
+}
+
+.quem-sou-grid img{
+    justify-self: end;
 }
 
 .quem-sou-grid p + p{

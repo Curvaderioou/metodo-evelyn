@@ -1,7 +1,6 @@
 .main-bg {
-    background: linear-gradient(113.34deg, #C885C3 -54.38%, #EEB5EA 8.59%, #FED7FB 96.38%);
-    background-image: url(/img/background-main.jpg);
-    background-position:  right center;
+    background-image: url(/img/background-main.webp);
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover ;
 }
@@ -21,6 +20,7 @@
 .main-header a{
     display: block;
     max-width: max-content;
+    padding: 5px 10px;
 }
 
 .main-content {
@@ -47,17 +47,26 @@
     display: block;
 }
 
-@media only screen and (min-width: 501px) and (max-width:900px) {
+@media only screen and (min-width: 861px) and (max-width:1100px) {
     .main-bg {
-        background-image: url(/img/background-main-midle.jpg);
-        background-position:  right top;
+        background-image: url(/img/background-main-notebook.webp);
+        background-position:  center top;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width:860px) {
+    .main-bg {
+        background-image: url(/img/background-main-mobile.webp);
+        background-position:  right bottom;
+        padding-bottom: 80px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .main-bg {
-        background-image: url(/img/background-main-mobile.jpg);
+        background-image: url(/img/background-main-mobile.webp);
         background-position:  right top;
+        padding-bottom: 140px;
     }
 
     .main {
