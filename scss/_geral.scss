@@ -1,0 +1,134 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background: #FDFDFD;
+    color: #040404;
+}
+
+/*'gagalin', serif*/
+
+h1 {
+    font-size: 2.75rem;
+    font-family: 'gagalin', serif;
+    line-height: 1.1em;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'gagalin', serif;
+    line-height: 1.1em;
+}
+
+h4 {
+    font-family: 'gagalin', serif;
+    color: #FDFDFD;
+    font-size: 1.5rem;
+    line-height: 1.1em;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 1.125rem;
+    line-height: 1.1em;
+    font-weight: 600;
+    text-decoration: uppercase;
+    font-style: italic;
+    background: url(/img/btn.svg) no-repeat center center;
+    max-width: max-content;
+    padding: 28px 52px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-anchor {
+    font-size: 1.25rem;
+    line-height: 1.1em;
+    font-weight: 600;
+    text-decoration: uppercase;
+    font-style: italic;
+    color: #B22AB0;
+    text-transform: uppercase;
+    max-width: max-content;
+}
+
+.btn-anchor:after {
+    content: "";
+    display: block;
+    max-width: 100%;
+    height: 2px;
+    background: #B22AB0;
+}
+
+.color-destaque {
+    color: #B22AB0;
+}
+
+.weight-destaque {
+    font-weight: 600;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #040404;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 100%);
+    background: #FDFDFD;
+}
+.box-white {
+    border: 2px solid #FED7FB;
+    box-shadow: 5px 5px 0px rgba(254, 215, 251, 100%);
+}
+
+.atual {
+    color: #FED7FB;
+}
+
+.top-menu-promo {
+    background: #A0009E;
+    display: grid;
+}
+
+
+.top-menu-promo p{
+    display: inline;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'gagalin', serif;
+}
+
+.top-menu-promo-content a{
+    text-decoration: underline;
+    margin-left: 5px;
+    display: inline;
+
+    color: #fff;
+    font-family: 'gagalin', serif;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+}

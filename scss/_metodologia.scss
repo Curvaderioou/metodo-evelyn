@@ -1,0 +1,36 @@
+.metodologia-grid {
+    max-width: 650px;
+    padding: 40px;
+}
+
+.metodologia {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(113.34deg, #C885C3 -54.38%, #EEB5EA 8.59%, #FED7FB 96.38%);
+    background-image: url(/img/bg-1.webp);
+    background-position:  right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.metodologia-grid p + p {
+    margin-top: 10px;
+}
+
+.metodologia-grid h2 {
+    margin-bottom: 20px;
+}
+.metodologia-grid a {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    .metodologia-grid {
+        padding: 40px 20px;
+    } 
+
+    .metodologia-grid a {
+        margin: 20px auto 0px auto;
+    }
+}
